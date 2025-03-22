@@ -13,9 +13,9 @@ public class DasKagizQayciOyunu {
             Random rand = new Random();
             String[] secenekler = {"das", "kagiz", "qayci"};
 
-            System.out.println("kagiz-qayci oyununa xos geldiniz");
+            System.out.println("Das-kagiz-qayci oyununa xos geldiniz");
 
-            System.out.println("zehmet olmasa das, kagiz, das ve qaycidan -birini daxil edesiz");
+            System.out.println("zehmet olmasa das, kagiz, das ve qaycidan - birini daxil edesiz");
             String oyuncu = new Scanner(System.in).next();
 
             if (!oyuncu.equals("das") && !oyuncu.equals("kagiz") && !oyuncu.equals("qayci")) {
@@ -37,10 +37,10 @@ public class DasKagizQayciOyunu {
                     (oyuncu.equals("qayci") && computer.equals("kagiz"))) {
                 System.out.println("tebrikler siz oyuncu qazandiniz:)");
             } else {
-                System.out.println("teesufler komputer qazandi :|");
+                System.out.println("teessufler komputer qazandi :|");
             }
 
-            System.out.println("tekrar oynamaq isteyrisiz? he/yox");
+            System.out.println("tekrar oynamaq isteyirsiniz? he/yox");
             String davam = new Scanner(System.in).next();
             if (davam.equalsIgnoreCase("yox")) {
                 System.out.println("Oyundan cixish...");
